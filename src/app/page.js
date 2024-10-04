@@ -5,9 +5,7 @@ import React from 'react'
 function Page() {
   return (
     <div>
-      Welcome to Napita
-      {/* <BarberDashboard/> */}
-      <NapitaSPA/>
+     
     </div>
   )
 }
