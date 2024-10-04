@@ -169,7 +169,7 @@ export default function Navbar() {
                 ))}
                 <motion.li variants={menuItemVariants}>
                   <Link
-                    href="/signin"
+                    href="/login"
                     className="bg-purple-600 hover:bg-purple-700 text-white transition-colors block py-3 px-4 flex items-center"
                     onClick={toggleMenu}
                   >
