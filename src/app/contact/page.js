@@ -47,7 +47,7 @@ export default function ContactPage() {
             Contact <span className="text-purple-600">Us</span>
           </motion.h1>
           <motion.p variants={itemVariants} className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            We're here to help! Reach out to us with any questions, concerns, or feedback.
+            We&apos;re here to help! Reach out to us with any questions, concerns, or feedback.
           </motion.p>
         </motion.section>
 
@@ -142,7 +142,7 @@ export default function ContactPage() {
             {[
               { question: "How do I book an appointment?", answer: "You can easily book an appointment through our website or mobile app. Simply search for your desired service, choose a salon, and select an available time slot." },
               { question: "Can I cancel or reschedule my appointment?", answer: "Yes, you can cancel or reschedule your appointment up to 24 hours before the scheduled time without any penalty. Please log in to your account to make changes." },
-              { question: "How do I become a partner salon?", answer: "If you're interested in becoming a partner salon, please reach out to us through the contact form or email us at partners@napita.com. We'll be happy to provide you with more information." },
+              { question: "How do I become a partner salon?", answer: "If you&apos;re interested in becoming a partner salon, please reach out to us through the contact form or email us at partners@napita.com. We&apos;ll be happy to provide you with more information." },
               { question: "Is there a mobile app available?", answer: "Yes, we have mobile apps available for both iOS and Android devices. You can download them from the App Store or Google Play Store." }
             ].map((faq, index) => (
               <motion.div key={index} variants={itemVariants}>

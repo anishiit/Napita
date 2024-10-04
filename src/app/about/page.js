@@ -62,7 +62,7 @@ export default function AboutPage() {
             Our Mission
           </motion.h2>
           <motion.p variants={itemVariants} className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto text-center">
-            At Napita, we're on a mission to revolutionize the beauty industry by creating a seamless connection between skilled professionals and clients seeking top-notch services. We believe that everyone deserves to feel beautiful and confident, and we're here to make that happen.
+            At Napita, we&aposre on a mission to revolutionize the beauty industry by creating a seamless connection between skilled professionals and clients seeking top-notch services. We believe that everyone deserves to feel beautiful and confident, and we&apos;re here to make that happen.
           </motion.p>
         </motion.section>
 
@@ -111,10 +111,10 @@ export default function AboutPage() {
           </motion.h2>
           <div className="max-w-3xl mx-auto">
             <motion.p variants={itemVariants} className="text-lg text-gray-600 mb-4">
-              Founded in 2023, Napita started as a small idea to solve a big problem: the disconnect between beauty professionals and clients. We've grown from a local initiative to a nationwide platform, continuously evolving to meet the needs of our users.
+              Founded in 2023, Napita started as a small idea to solve a big problem: the disconnect between beauty professionals and clients. We&apos;ve grown from a local initiative to a nationwide platform, continuously evolving to meet the needs of our users.
             </motion.p>
             <motion.p variants={itemVariants} className="text-lg text-gray-600">
-              Today, we're proud to serve thousands of salons and clients across the country, facilitating beautiful transformations and building lasting relationships in the beauty community.
+              Today, we&apos;re proud to serve thousands of salons and clients across the country, facilitating beautiful transformations and building lasting relationships in the beauty community.
             </motion.p>
           </div>
         </motion.section>
@@ -132,7 +132,7 @@ export default function AboutPage() {
             Join the Napita Family
           </motion.h2>
           <motion.p variants={itemVariants} className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Whether you're a salon owner, beauty professional, or someone looking for top-notch beauty services, there's a place for you in the Napita community.
+            Whether you&aposre a salon owner, beauty professional, or someone looking for top-notch beauty services, there&apos;s a place for you in the Napita community.
           </motion.p>
           <motion.div variants={itemVariants} className="flex justify-center space-x-4">
             <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full">
