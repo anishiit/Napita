@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Napita",
- 
+  description: "Napita",
 };
 
 export default function RootLayout({ children }) {
