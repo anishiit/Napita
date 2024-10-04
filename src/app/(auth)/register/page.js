@@ -8,6 +8,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import { setCookie } from 'nookies';
+import Navbar from "@/components/Navbar";
 
 const backendurl = "#";
 
@@ -68,6 +69,9 @@ export default function SignupPage() {
   },[])
 
   return (
+
+   <>
+    <Navbar />
     <div className="min-h-screen flex items-center justify-center bg-indigo-900 p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
@@ -141,5 +145,6 @@ export default function SignupPage() {
         </CardFooter>
       </Card>
     </div>
+   </>
   )
 }
