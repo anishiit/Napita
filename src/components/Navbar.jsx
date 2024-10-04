@@ -2,8 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Search, Scissors, Star, MapPin, Calendar, Clock, ChevronRight, Heart, Zap } from 'lucide-react'
-
+import { useRouter } from 'next/navigation';
 function Navbar() {
+    const router = useRouter();
+    const handleSignIn = () => {
+        router.push('/login'); // Navigate to the login page
+      };
+    
   return (
     <div>
        <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -19,7 +24,7 @@ function Navbar() {
               <li><Link href="/contact" className="text-gray-600 hover:text-purple-600 transition-colors">Contact</Link></li>
             </ul>
           </nav>
-          <Button className="bg-purple-600 hover:bg-purple-700 text-white">Sign In</Button>
+          <Button onClick={handleSignIn} className="bg-purple-600 hover:bg-purple-700 text-white">Sign In</Button>
         </div>
       </header>
     </div>
